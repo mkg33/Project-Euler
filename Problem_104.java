@@ -5,9 +5,7 @@ public class Problem_104 {
 	
 	static BigInteger previous = new BigInteger("1");
 	
-	static BigInteger next_previous = BigInteger.ZERO;
-	
-	static BigInteger end = BigInteger.valueOf(Long.MAX_VALUE);
+    static BigInteger next_previous = BigInteger.ZERO;
 	
 	static String number;
 	
@@ -31,7 +29,7 @@ public class Problem_104 {
 			
 			counter += 1;
 			
-			System.out.println("counter " + counter + " " + i);
+		//	System.out.println("counter " + counter + " " + i);
 			
 			number = i.toString();
 			
